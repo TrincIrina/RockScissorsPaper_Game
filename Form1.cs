@@ -46,17 +46,17 @@ namespace RockScissorsPaper_Game
 
         private void rockButton_Click(object sender, EventArgs e)
         {
-
+            GetResult("Rock");
         }
 
         private void scissorsButton_Click(object sender, EventArgs e)
         {
-
+            GetResult("Scissors");
         }
 
         private void paperButton_Click(object sender, EventArgs e)
         {
-
+            GetResult("Paper");
         }
     }
 }

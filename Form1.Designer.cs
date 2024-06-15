@@ -51,6 +51,7 @@
             this.rockButton.TabIndex = 0;
             this.rockButton.Text = "rock";
             this.rockButton.UseVisualStyleBackColor = false;
+            this.rockButton.Click += new System.EventHandler(this.rockButton_Click);
             // 
             // scissorsButton
             // 
@@ -64,6 +65,7 @@
             this.scissorsButton.TabIndex = 1;
             this.scissorsButton.Text = "scissors";
             this.scissorsButton.UseVisualStyleBackColor = false;
+            this.scissorsButton.Click += new System.EventHandler(this.scissorsButton_Click);
             // 
             // paperButton
             // 
@@ -77,6 +79,7 @@
             this.paperButton.TabIndex = 2;
             this.paperButton.Text = "paper";
             this.paperButton.UseVisualStyleBackColor = false;
+            this.paperButton.Click += new System.EventHandler(this.paperButton_Click);
             // 
             // label1
             // 
